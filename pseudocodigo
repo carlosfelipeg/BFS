@@ -1,0 +1,10 @@
+método BFS(Grafo,origen):
+      creamos una cola Q
+      agregamos origen a la cola Q
+      marcamos origen como visitado
+      mientras Q no este vacío:
+          sacamos un elemento de la cola Q llamado v
+          para cada vertice w adyacente a v en el Grafo: 
+              si w no ah sido visitado:
+                 marcamos como visitado w
+                 insertamos w dentro de la cola Q
